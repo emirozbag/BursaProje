@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@500;700&family=Roboto+Mono&family=Satisfy&family=Titillium+Web:wght@400;700&display=swap');
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ) ,url(/bursa.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+p {
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.btn{
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 3px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid greenyellow;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar a img{
+    width: 150px;
+    margin: 30px;
+    margin-left: 90px;
+    
+}
+
+nav ul{
+ 
+    list-style: none;
+    margin-right: 100px;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+nav ul li {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li:hover{
+    color: #000;
+}
+
+.row{
+    display: flex;
+    column-gap: 10px;
+    height: 88%;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.col{
+flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.desc{
+    font-size: 16px;
+
+}   
+
+.places{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    }
+
+.place{
+    width: 200px;
+    height: 230px;
+    display: inline-block ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid black;
+    position: relative;
+    transition: 0.5s;
+    margin: 10px 5px;
+}
+
+.place:hover{
+    transform: translateY(-10px);
+    border-color: #fff;
+}
+
+.place .place-head{
+background-color: rgba(0,0,0,0.1);
+color: #fff;
+border-radius: 6px;
+padding: 6px;
+
+}
+
+.place .place-buttom {
+position: absolute;
+bottom: 30px;
+}
+
+.place.place1{
+    background-image: url(./ulucami.jpg);
+}
+
+.place.place2{
+    background-image: url(./saatkulesi.jpg);
+}
+
+.place.place3{
+    background-image: url(./trilye.jpg);
+}
+.place.place4{
+    background-image: url(./uludağ.jpg);
+}
+
+.place.place5{
+    background-image: url(./cumalıkızık.jpg);
+}
+
+.place.place6{
+    background-image: url(./kozahan.jpg);
+}
+
